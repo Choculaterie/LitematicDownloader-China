@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "litematic-downloader",
+	"version": "${version}",
+	"name": "Litematic Downloader",
+	"description": "Downloader & file manager for Choculaterie's Litematic files",
+	"authors": [
+		"Choculat"
+	],
+	"contact": {
+		"homepage": "https://github.com/HenriSaumure/LitematicDownloader",
+		"sources": "https://github.com/HenriSaumure/LitematicDownloader",
+		"issues": "https://github.com/HenriSaumure/LitematicDownloader/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/litematic-downloader/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.choculaterie.LitematicDownloader"
+		],
+		"client": [
+			"com.choculaterie.LitematicDownloaderClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.3",
+        "minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
